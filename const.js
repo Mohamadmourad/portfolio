@@ -1,0 +1,14 @@
+let hamburger = document.getElementById("hamburger");
+let navBar = document.getElementById("navBar");
+let exit = document.getElementById("exit");
+let insta = document.getElementById("insta");
+let github = document.getElementById("github");
+let chess = document.getElementById("chess");
+let card = document.getElementById("card");
+let music = document.getElementById("music");
+let project1 = document.getElementById("project1");
+let project2= document.getElementById("project2");
+let project3 = document.getElementById("project3");
+let about = document.getElementById("about");
+let contact = document.getElementById("contact");
+let myPhoto = document.getElementById("myPhoto");
