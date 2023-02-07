@@ -12,7 +12,7 @@ insta.addEventListener("click",function fun1(){
 });
 
 github.addEventListener("click",function fun1(){
-    window.location.href="https://github.com/Mouradis";
+    window.location.href="https://github.com/Mohamadmourad";
 });
 
 chess.addEventListener("click",function fun1(){
