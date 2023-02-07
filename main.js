@@ -46,7 +46,12 @@ about.addEventListener("click",function fun1(){
 contact.addEventListener("click",function fun1(){
     window.location.href="#footer";
 });
-
+let degrees = 0;
+myPhoto.addEventListener("click",function fun1(){
+    degrees += 360;
+  myPhoto.style.transform = `rotate(${degrees}deg)`;
+  myPhoto.style.transition = "3s";
+});
 
 
 
