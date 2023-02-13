@@ -29,6 +29,7 @@ music.addEventListener("click",function fun1(){
 
 project1.addEventListener("click",function fun1(){
     window.location.href="https://mouradchesstraining1.netlify.app";
+
 });
 
 project2.addEventListener("click",function fun1(){
@@ -37,6 +38,10 @@ project2.addEventListener("click",function fun1(){
 
 project3.addEventListener("click",function fun1(){
     window.location.href="https://mouradlogin.netlify.app";
+});
+
+project4.addEventListener("click",function fun1(){
+    window.location.href="https://tourmaline-banoffee-4d89a0.netlify.app/";
 });
 
 about.addEventListener("click",function fun1(){
@@ -54,8 +59,9 @@ myPhoto.addEventListener("click",function fun1(){
 });
 
 
-
-
+window.addEventListener("click",function fun(){
+    porject1.style.width="10000px";
+});
 
 
 

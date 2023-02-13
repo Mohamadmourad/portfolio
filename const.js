@@ -9,6 +9,7 @@ let music = document.getElementById("music");
 let project1 = document.getElementById("project1");
 let project2= document.getElementById("project2");
 let project3 = document.getElementById("project3");
+let project4 = document.getElementById("project4");
 let about = document.getElementById("about");
 let contact = document.getElementById("contact");
 let myPhoto = document.getElementById("myPhoto");
