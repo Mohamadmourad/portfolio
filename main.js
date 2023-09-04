@@ -28,12 +28,12 @@ music.addEventListener("click",function fun1(){
 });
 
 project1.addEventListener("click",function fun1(){
-    window.location.href="https://mouradchesstraining1.netlify.app";
+    window.location.href="https://chessguesser.netlify.app/";
 
 });
 
 project2.addEventListener("click",function fun1(){
-    window.location.href="https://mouradflix.netlify.app";
+    window.location.href="https://tic-tac-toe-511.netlify.app/";
 });
 
 project3.addEventListener("click",function fun1(){

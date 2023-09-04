@@ -89,8 +89,8 @@ body{
 
 .myphoto{
     border-radius: 100%;
-    width: 105px;
-    height: 105px;
+    width: 120px;
+    height: 110px;
     justify-content: center;
     z-index: 1;
     border: solid;
