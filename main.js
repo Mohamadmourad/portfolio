@@ -28,7 +28,7 @@ music.addEventListener("click",function fun1(){
 });
 
 project1.addEventListener("click",function fun1(){
-    window.location.href="https://chessguesser.netlify.app/";
+    window.location.href="https://scheduler511.netlify.app/";
 
 });
 
@@ -37,7 +37,7 @@ project2.addEventListener("click",function fun1(){
 });
 
 project3.addEventListener("click",function fun1(){
-    window.location.href="https://mouradlogin.netlify.app";
+    window.location.href="https://chessguesser.netlify.app/";
 });
 
 project4.addEventListener("click",function fun1(){
