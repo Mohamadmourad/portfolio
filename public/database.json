@@ -1,0 +1,29 @@
+
+  [
+      {
+        "title": "Socail Media Clone",
+        "description": "A small clone of a social media platform that allows users to share posts and interact with other users.",
+        "technologies": ["react","firebase"],
+        "photo": "circulars",
+        "link": "https://circularsworld.netlify.app/",
+        "githubLink":"https://github.com/Mohamadmourad/Circulars" 
+      },
+      {
+        "title": "Task Flow",
+        "description": "Each day the admin refrech the tasks and the users can see the tasks and take it and when they finish it they can mark it as done.",
+        "technologies": ["react","firebase","bootstrap"],
+        "photo": "taskFlow",
+        "link": "https://taskflow511.netlify.app/",
+        "githubLink":"https://github.com/Mohamadmourad/taskFlow" 
+      },
+      {
+        "title": "Book Trading Website",
+        "description": "A website that allows users to trade books with each other. Users can add their book to listing with their contact info.",
+        "technologies": ["php"],
+        "photo": "bookTrading",
+        "link": "",
+        "githubLink":"https://github.com/Mohamadmourad/book-trading" 
+      }
+ ]
+  
+  

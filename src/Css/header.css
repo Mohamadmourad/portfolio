@@ -1,0 +1,104 @@
+header {
+  background-color: #1F2025;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+header p {
+  color: #C2DF15;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+header nav {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+header nav a:hover {
+  color: #C2DF15;
+}
+
+header aside {
+  display: none;
+}
+
+#contactBtn{
+  background-color: #C2DF15;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#contactBtn:hover {
+  background-color: white;
+} 
+
+@media all and (max-width: 500px) {
+  header nav {
+      display: none;
+  }
+  header aside {
+      display: block;
+      padding-right: 20px;
+  }
+  header aside img {
+      width: 30px;
+  }
+}
+
+.mobileNav {
+  width: 100%;
+  height: calc(100vh - 60px);
+  position: fixed;
+  z-index: 9;
+  background: rgba(31, 32, 37, 0.8); 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px); 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+.mobileNav nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90%;
+  gap: 20px;
+}
+
+.mobileNav nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.mobileNav nav a:active {
+  color: #C2DF15;
+  transform: scale(0.9);
+}
