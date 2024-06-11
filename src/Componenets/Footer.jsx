@@ -4,9 +4,8 @@ import SocialLinks from './SocialLinks';
 const Footer = () => {
     return (
         <footer>
-            <p>CopyRight &copy; 2024</p>
             <strong>Mohamad Mourad</strong>
-            <SocialLinks />
+            <p>Copyright &copy; 2024</p>
         </footer>
     );
 }
