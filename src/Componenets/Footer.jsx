@@ -1,5 +1,4 @@
 import '../Css/footer.css'
-import SocialLinks from './SocialLinks';
 
 const Footer = () => {
     return (
