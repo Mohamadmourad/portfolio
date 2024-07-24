@@ -9,6 +9,14 @@
         "githubLink":"https://github.com/Mohamadmourad/Circulars" 
       },
       {
+        "title": "Movies Sentiment Analysis",
+        "description": "Using React as frontend and node.js as backend to analyze the sentiment of the movie reviews on imdb ny scraping them and using a machine learning model to predict the sentiment.",
+        "technologies": ["react","node","python"],
+        "photo": "MovieSentimentAnalysis",
+        "link": "",
+        "githubLink":"https://github.com/Mohamadmourad/Movies-sentiment-analysis" 
+      },
+      {
         "title": "Task Flow",
         "description": "Each day the admin refrech the tasks and the users can see the tasks and take it and when they finish it they can mark it as done.",
         "technologies": ["react","firebase","bootstrap"],
