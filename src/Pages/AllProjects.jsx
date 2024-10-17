@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import back from '../Images/Assets/back.svg';
+import { Helmet } from 'react-helmet';
 
 const AllProjects = () => {
     let [projects,setProjects] = useState([]);
@@ -28,6 +29,12 @@ const AllProjects = () => {
 
     return (
         <section>
+             <Helmet>
+             <title>Mohamad Mourad | Projects Portfolio</title>
+             <meta name="description" content="Explore the diverse projects I've worked on, showcasing my skills in web development, design, and coding. Discover how I bring ideas to life through innovative solutions." />
+            <meta name="keywords" content="portfolio, web development, projects, software development, design, coding, technology, Mohamad Mourad" />
+            <meta name="author" content="Mohamad Mourad" />
+             </Helmet>
             <img src={back} alt='back button' id='back' onClick={()=>{goBack()}}/>
             <div className="AllProjects">
            <aside className='projectsTitles'>
