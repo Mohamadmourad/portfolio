@@ -25,7 +25,7 @@ const Header = () => {
                 <nav>
                     <a href="#aboutMe">About</a>
                     <a href="#projects">Projects</a>
-                    <Link to="/Resume">Resume</Link>
+                    <Link to="/resume">Resume</Link>
                     <a href="#contact" id='contactBtn'>Contact</a>
                 </nav>
                 <aside>
@@ -37,7 +37,7 @@ const Header = () => {
                     <nav>
                         <a href="#aboutMe" onClick={handleLinkClick}>About</a>
                         <a href="#projects" onClick={handleLinkClick}>Projects</a>
-                        <Link to="/Resume" onClick={handleLinkClick}>Resume</Link>
+                        <Link to="/resume" onClick={handleLinkClick}>Resume</Link>
                         <a href="#contact" onClick={handleLinkClick}>Contact</a>
                     </nav>
                 </div>
