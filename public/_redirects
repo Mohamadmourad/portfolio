@@ -1,1 +1,7 @@
+# Fallback route for single-page app (SPA)
 /*    /index.html   200
+
+# Redirect all HTTP to HTTPS with www
+http://mohamadmourad.com/*  https://www.mohamadmourad.com/:splat 301
+http://www.mohamadmourad.com/* https://www.mohamadmourad.com/:splat 301
+https://mohamadmourad.com/* https://www.mohamadmourad.com/:splat 301
