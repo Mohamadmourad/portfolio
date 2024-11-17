@@ -48,8 +48,6 @@ body {
   transition: 0.3s;
 }
 
-
-
 @media screen and (max-width: 750px){
   .websiteTop img{
     display: none;

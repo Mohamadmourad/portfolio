@@ -1,5 +1,7 @@
 header {
-  background-color: #1F2025;
+  /* background: rgba(31, 32, 37, 0.8);  */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px); 
   height: 60px;
   display: flex;
   justify-content: space-between;

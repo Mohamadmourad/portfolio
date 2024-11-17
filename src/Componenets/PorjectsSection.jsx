@@ -41,7 +41,7 @@ const PorjectsSection = () => {
                 })}
             </aside>
             <aside className='allProjects'>
-                <Link to="/porjects">
+                <Link to="/projects">
                 All Projects
                 <img src={rightArrow} alt='right arrow logo'/> 
                 </Link>

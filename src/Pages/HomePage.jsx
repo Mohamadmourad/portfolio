@@ -4,6 +4,7 @@ import Footer from "../Componenets/Footer";
 import Header from "../Componenets/Header";
 import PorjectsSection from "../Componenets/PorjectsSection";
 import SocialLinks from "../Componenets/SocialLinks";
+import TimeLine from "../Componenets/TimeLine";
 import logo from '../Images/Assets/personalPhoto.png';
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
             </div>
             <SocialLinks />
             <PorjectsSection />
+            <TimeLine />
             <Contact />
             <Footer />
         </div>
