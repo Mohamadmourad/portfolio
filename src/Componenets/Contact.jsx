@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import '../Css/contact.css';
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from '../Config/firebase';
+import { Timestamp } from "firebase/firestore";
 
 const Contact = () => {
     const nameRef = useRef(null);
@@ -18,7 +19,8 @@ const Contact = () => {
         await addDoc(c,{
             name:name,
             email:email,
-            message:message
+            message:message,
+            date: Timestamp.fromDate(new Date())
         });
 
         document.querySelector('form').reset();
